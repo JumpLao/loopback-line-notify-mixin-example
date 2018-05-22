@@ -15,8 +15,8 @@ module.exports = function(Model, options) {
     const backendCallbackPath = options.backendCallbackPath;
     const successCallbackPath = options.successCallbackPath;
     const errorCallbackPath = options.errorCallbackPath;
-    const lineClientID = options.lineClientID;
-    const lineClientSecret = options.lineClientSecret;
+    const lineClientID = process.env.LINE_CLIENTID;
+    const lineClientSecret = process.env.LINE_CLIENTSECRET;
     const sessionKey = `${Model.name}Id`;
     const redirectURL = (`${backendUrl}${app.get('restApiRoot')}/${Model.pluralModelName}${backendCallbackPath}`).toLowerCase();
     return {

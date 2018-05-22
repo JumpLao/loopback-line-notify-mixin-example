@@ -3,10 +3,7 @@
   "base": "PersistedModel",
   "idInjection": true,
   "mixins": {
-    "LineNotify": {
-      "lineClientID": "cfF3prlw3wuNKXA5RfO71w",
-      "lineClientSecret": "NhetoyblMu8ySZR00BBdSlbRLaq0Qp2E5VhrZVql1U4"
-    }
+    "LineNotify": {}
   },
   "options": {
     "validateUpsert": true
