@@ -1,0 +1,28 @@
+{
+  "name": "loopback-line-notify-mixin",
+  "version": "1.0.0",
+  "description": "Line mixin notification for loopback",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JumpLao/loopback-line-notify-mixin.git"
+  },
+  "keywords": [
+    "loopback",
+    "line",
+    "notify"
+  ],
+  "author": "Nattaphat Laoharawee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JumpLao/loopback-line-notify-mixin/issues"
+  },
+  "homepage": "https://github.com/JumpLao/loopback-line-notify-mixin#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "qs": "^6.5.2"
+  }
+}
